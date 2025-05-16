@@ -520,7 +520,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "NullZen",
+   Name = "SCP Roleplay : NullZen",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
