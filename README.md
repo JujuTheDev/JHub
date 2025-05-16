@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "🎩Juju Hub🎩 | 30+ Games | v4.0.6",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.0.9",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "Bypassing Anticheat ☑️",
+   LoadingSubtitle = "Bypassed Anticheat ☑️",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Juju Hub | Key | v4.0.5",
+      Title = "Juju Hub | Key | v4.0.9",
       Subtitle = "Bypassed anticheat ☑️",
       Note = "Join Discord to get Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -36,7 +36,7 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.0.5", Content = "Updated on 04/01/25"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.0.9", Content = "Updated on 05/16/2025"})
 
 local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly you can get latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
@@ -159,9 +159,9 @@ local Button = Tab:CreateButton({
    Name = "Prison Life : PrizzLife",
    Callback = function()
    Rayfield:Notify({
-   Title = "Script Executed",
-   Content = "Have Fun !",
-   Duration = 6.5,
+   Title = "Script Broken",
+   Content = "Try the PrizzLife V2 (in this hub)",
+   Duration = 10,
    Image = 104365492568677,
 })
    loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
@@ -490,6 +490,45 @@ local Button = Tab:CreateButton({
    Image = 104365492568677,
 })
    loadstring(game:HttpGet("https://rawscripts.net/raw/RIVALS-Best-Script-Duck-Hub-29813"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Ability Wars : ElysiumX",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/KylnDantas/ElysiumX/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Prison Life : PrizzLife V2",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Prizzlife-39787"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "NullZen",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/axleoislost/NullZen/main/Scp-Roleplay"))()
    end,
 })
 
