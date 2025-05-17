@@ -36,7 +36,7 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.1.3", Content = "Updated on 05/17/2025"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.1.4", Content = "Updated on 05/17/2025"})
 
 local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly if not, get the latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
