@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "🎩Juju Hub🎩 | 30+ Games | v4.0.9",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.3 | Whitelisted ☑️",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "Bypassed Anticheat ☑️",
+   LoadingSubtitle = "v4.1.3",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
@@ -18,15 +18,15 @@ local Window = Rayfield:CreateWindow({
    Discord = {
       Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
       Invite = "Q5MZxNDtWa", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Juju Hub | Key | v4.0.9",
-      Subtitle = "Bypassed anticheat ☑️",
-      Note = "Join Discord to get Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
-      FileName = "JujuHubKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      Title = "Juju Hub | Whitelist | v4.1.3",
+      Subtitle = "Whitelist is permanent",
+      Note = "Join Discord to get the Whitelist Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
+      FileName = "JujuHubWhitelist", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"23071806"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
@@ -36,9 +36,9 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.0.9", Content = "Updated on 05/16/2025"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.1.3", Content = "Updated on 05/17/2025"})
 
-local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly you can get latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
+local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly if not, get the latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
 local Button = Tab:CreateButton({
    Name = "Close UI",
@@ -160,7 +160,7 @@ local Button = Tab:CreateButton({
    Callback = function()
    Rayfield:Notify({
    Title = "Script Broken",
-   Content = "Try the PrizzLife V2 (in this hub)",
+   Content = "This script is actually down, wait until it get fix",
    Duration = 10,
    Image = 104365492568677,
 })
@@ -221,7 +221,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Murder VS Sheriff Duels : Lx39 (Broke The Hub)",
+   Name = "Murder VS Sheriff Duels : Lx39",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
@@ -234,7 +234,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "M.E.G Endless Reality : MegMenu (Broke The Hub)",
+   Name = "M.E.G Endless Reality : MegMenu",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
@@ -247,7 +247,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "GRANNY : Haps (destroy the Hub)",
+   Name = "GRANNY : Haps",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
@@ -468,7 +468,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Piggy",
+   Name = "Piggy : StarHack",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
@@ -532,6 +532,92 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Grow A Garden : Autofarm",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   getgenv().VxezeHubConfig = {
+    ["Auto Collect Plants"] = true,
+    ["Loop Auto Sell"] = true,
+    ["Auto Buy M+ Seeds"] = true,
+    ["Auto Buy All Seeds"] = false,
+    ["Auto Buy Eggs"] = false,
+    ["Eggs"] = {
+        ["Common"] = false,
+        ["Uncommon"] = false,
+        ["Rare"] = false,
+        ["Legendary"] = true,
+        ["Mythical"] = true,
+        ["Bug"] = true,
+    },
+    ["Auto Plant All Seeds"] = false,
+    ["Anti-AFK"] = true,
+    ["Player NoClip"] = true,
+    ["Camera NoClip"] = true,
+    ["Continuous E Hold"] = true,
+    ["Auto Max Zoom"] = true,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubGrowAGardenKaitun.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Base Battles : Simple Hitbox Extender",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   -- loop
+game:GetService("RunService").Stepped:Connect(function()
+    -- gets all players in the server
+    for _, player in next, game:GetService("Players"):GetPlayers() do
+        -- checks if the player found was not the local player, so the local player doesnt get his hitbox extended
+        if player ~= game:GetService("Players").LocalPlayer then
+            -- finds humanoid root part, then changes transparecy and can collide so you can walk through the hitbox and it wont be wonky
+            local hrp = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                hrp.CanCollide = false
+                hrp.Transparency = 0.1  -- Biraz şəffaflıq əlavə et
+                
+                -- changes the humanoidrootpart size (basically the main code)
+                if hrp.Size ~= Vector3.new(20, 20, 20) then
+                    hrp.Size = Vector3.new(20, 20, 20)
+                end
+                
+                
+                hrp.Material = Enum.Material.Neon
+                hrp.BrickColor = BrickColor.new("Bright red") 
+                
+                
+                -- hrp.BrickColor = BrickColor.new("Bright blue") 
+            end
+        end
+    end
+end)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dead Rails : Memet",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet('https://pastebin.com/raw/LK4saM1h'))()
+   end,
+})
+
 local Tab = Window:CreateTab("Credits", 104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Creator", Content = "JujuOfficiel"})
@@ -539,3 +625,10 @@ local Paragraph = Tab:CreateParagraph({Title = "Creator", Content = "JujuOfficie
 local Paragraph = Tab:CreateParagraph({Title = "Helper", Content = "hb2obsk"})
 
 local Paragraph = Tab:CreateParagraph({Title = "Supporter", Content = "secretmodedajyo"})
+
+Rayfield:Notify({
+   Title = "Anticheat Bypassed ☑️",
+   Content = "If you got banned its due to your executor",
+   Duration = 6.5,
+   Image = 4483362458,
+})
