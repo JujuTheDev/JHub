@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.3 | Whitelisted ☑️",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.4 | Whitelisted ☑️",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "v4.1.3",
+   LoadingSubtitle = "v4.1.4",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Juju Hub | Whitelist | v4.1.3",
+      Title = "Juju Hub | Whitelist | v4.1.4",
       Subtitle = "Whitelist is permanent",
       Note = "Join Discord to get the Whitelist Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
       FileName = "JujuHubWhitelist", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
