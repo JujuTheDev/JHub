@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.4 | Whitelisted ☑️",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.5 | Whitelisted ☑️",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "v4.1.4",
+   LoadingSubtitle = "v4.1.5",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Juju Hub | Whitelist | v4.1.4",
+      Title = "Juju Hub | Whitelist | v4.1.5",
       Subtitle = "Whitelist is permanent",
       Note = "Join Discord to get the Whitelist Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
       FileName = "JujuHubWhitelist", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -36,7 +36,7 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.1.4", Content = "Updated on 05/17/2025"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.1.5", Content = "Updated on 05/17/2025"})
 
 local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly if not, get the latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
@@ -169,7 +169,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Basically FNF : OP Autoplayer",
+   Name = "Basically FNF : OP Autoplayer (can have issue on mobile device)",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
