@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.5 | Whitelisted ☑️",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.8 | Whitelisted ☑️",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "v4.1.5",
+   LoadingSubtitle = "v4.1.8",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Juju Hub | Whitelist | v4.1.5",
+      Title = "Juju Hub | Whitelist | v4.1.8",
       Subtitle = "Whitelist is permanent",
       Note = "Join Discord to get the Whitelist Key (.gg/Q5MZxNDtWa)", -- Use this to tell the user how to get a key
       FileName = "JujuHubWhitelist", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -36,7 +36,7 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.1.5", Content = "Updated on 05/17/2025"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.1.8", Content = "Updated on 05/25/2025"})
 
 local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly if not, get the latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
@@ -161,7 +161,7 @@ local Button = Tab:CreateButton({
    Rayfield:Notify({
    Title = "Script Broken",
    Content = "This script is actually down, wait until it get fix",
-   Duration = 10,
+   Duration = 6.5,
    Image = 104365492568677,
 })
    loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
@@ -169,11 +169,11 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Basically FNF : OP Autoplayer (can have issue on mobile device)",
+   Name = "Basically FNF : OP Autoplayer",
    Callback = function()
    Rayfield:Notify({
    Title = "Script Executed",
-   Content = "Have Fun !",
+   Content = "Script can have issue if your on mobile",
    Duration = 6.5,
    Image = 104365492568677,
 })
@@ -618,6 +618,45 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "MM2 : Xhub",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XMainHub/freemium/refs/heads/main/execute"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dead Rails : OP Gui",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptBeLike/Tera-DeadRails/refs/heads/main/Meteor%20V1"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Prison Life : Triger Admin",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Tiger-Admin-40262"))()
+   end,
+})
+
 local Tab = Window:CreateTab("Credits", 104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Creator", Content = "JujuOfficiel"})
@@ -627,8 +666,8 @@ local Paragraph = Tab:CreateParagraph({Title = "Helper", Content = "hb2obsk"})
 local Paragraph = Tab:CreateParagraph({Title = "Supporter", Content = "secretmodedajyo"})
 
 Rayfield:Notify({
-   Title = "Anticheat Bypassed ☑️",
+   Title = "Roblox Anticheat",
    Content = "If you got banned its due to your executor",
    Duration = 6.5,
-   Image = 135085297589485,
+   Image = 4483362458,
 })
