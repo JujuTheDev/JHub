@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Important Warning",
+   Name = "🎩Juju Hub🎩 | 30+ Games | v4.1.8 | Error ❌",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
    LoadingSubtitle = "v4.1.8",
-   Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -32,6 +32,6 @@ local Window = Rayfield:CreateWindow({
       Key = {"23071806"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local Tab = Window:CreateTab("Please Read",104365492568677) -- Title, Image
+local Tab = Window:CreateTab("🔧 Error 6eA3",104365492568677) -- Title, Image
 
-local Paragraph = Tab:CreateParagraph({Title = "Message,", Content = "Juju Hub was developed with passion, but exploiting is bad and unfair to others players.. I decided to delete the entire code of original Juju Hub, starting exploits made me happy but now i lost good friends and more... Do not exploit. Be better. PLEASE READ: your account is in danger, roblox anticheat flagged you, you will get banned in few hours, here a list of possible ban : Warn > 1Day ban > 3Days Ban > 1week ban > 6months ban > perm ban"})
+local Paragraph = Tab:CreateParagraph({Title = "!", Content = "Juju Hub is currently down, please try again later and report this on discord : https://discord.gg/Q5MZxNDtWa"})
