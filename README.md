@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
    LoadingSubtitle = "v4.2.1",
-   Theme = "Shadow = Color3.fromRGB(- 82.99999999999999, - 58.99999999999997, - 119.99999999999994),
+   Theme = {"Shadow = Color3.fromRGB(- 82.99999999999999, - 58.99999999999997, - 119.99999999999994),
     SliderProgress = Color3.fromRGB(- 162.99999999999997, - 102.99999999999997, - 253.9999999999999),
     PlaceholderColor = Color3.fromRGB(- 177.99999999999994, - 177.99999999999994, - 177.99999999999994),
     InputStroke = Color3.fromRGB(- 55.99999999999998, - 55.99999999999998, - 55.99999999999998),
@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
     TabBackground = Color3.fromRGB(- 55.99999999999998, - 55.99999999999998, - 55.99999999999998),
     TabBackgroundSelected = Color3.fromRGB(- 174.99999999999994, - 152.99999999999997, - 254.9999999999999),
     TextColor = Color3.fromRGB(- 239.9999999999999, - 239.9999999999999, - 239.9999999999999),", -- Check https://docs.sirius.menu/rayfield/configuration/themes
-
+        },
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
